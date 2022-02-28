@@ -1,3 +1,4 @@
+# 체육복
 def solution(n, lost, reserve):
     reserveset = set(reserve) - set(lost)
     lostset = set(lost) - set(reserve)
